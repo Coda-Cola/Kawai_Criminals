@@ -49,3 +49,20 @@
     color: #000;
     /*Set to match the Tailwind colour you want the active one to be */
 }
+.animal-picture,
+.animal-info {
+    transition: all 0.5s ease-in-out;
+}
+
+.animal-info {
+    position: absolute;
+    padding: 2ch;
+    opacity: 0;
+}
+.animal-card:hover .animal-picture{
+    opacity: 0;
+}
+.animal-card:hover .animal-info{
+    opacity: 1;
+}
+

@@ -53,11 +53,9 @@
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
             <div class="carousel-item absolute opacity-0" style="height:50vh;">
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/hedgehog.svg);">
-
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Spike the Snack Bandit</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#"> Fruitylicious Hedgehog of Mischief</a> 
+                            <a class="text-black text-2xl my-4 hover:underline" href="#hedgehog">Spike the Snack Bandit</a>
                         </div>
                     </div>
                 </div>
@@ -69,16 +67,13 @@
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
             <div class="carousel-item absolute opacity-0 bg-cover bg-right" style="height:50vh;">
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/sunfish.svg)">
-
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Sunny the Turbo Sunfish</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">Aquatic Speedster with a Sunny Disposition</a> 
+                            <a class="text-black text-2xl my-4 hover:underline" href="#sunfish">Sunny the Turbo Sunfish</a>
                         </div>
                     </div>
-
                 </div>
-            </div>
+            </div> 
             <label for="carousel-1" class="prev control-2 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
             <label for="carousel-3" class="next control-2 w-10 h-10 mr-2 md:mr-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 right-0 my-auto">&gt;</label>
 
@@ -88,11 +83,9 @@
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/octopus.svg)">
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Inkwell the Cutesy Con Artist</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">Master of Deceptive Tentacles</a>
+                            <a class="text-black text-2xl my-4 hover:underline" href="#octopus">Inkwell the Cutesy Con Artist</a>
                         </div>
                     </div>
-
                 </div>
             </div>
             <label for="carousel-2" class="prev control-3 w-10 h-10 ml-2 md:ml-10 absolute cursor-pointer hidden text-3xl font-bold text-black hover:text-white rounded-full bg-white hover:bg-gray-900  leading-tight text-center z-10 inset-y-0 left-0 my-auto">&lt;</label>
@@ -110,7 +103,6 @@
                     <label for="carousel-3" class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:text-gray-900">•</label>
                 </li>
             </ol>
-
         </div>
     </div>
 
@@ -123,7 +115,7 @@
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
 
                     <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
-				        Criminals
+				    Criminals
 			        </a>
 
                     <div class="flex items-center" id="store-nav-content">
@@ -145,16 +137,18 @@
             </nav>
 
             <!-- HEDGEHOG -->
-            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" id="hedgehog">
                 <a href="#">
                  
                     <div class="hover:grow hover:shadow-lg rounded-md justify-center items-center bg-gray-100">
                         <div>
-                            <div class="animal-info flex flex-col justify-end"> 
+                            <div class="animal-info flex flex-col justify-evenly"> 
                                     <p class="underline">Name: </p>
                                     <p>Spike the Snack Bandit</p>
-                                    <p class="underline">Special Signs: </p> 
-                                    <p>Fruitylicious Hedgehog of Mischief</p>
+                                    <p class="underline">Distinguishing features: </p> 
+                                    <p>Irresistibly chubby cheek pouches</p>
+                                    <p class="underline">Prosecution Summary: </p> 
+                                    <p>Accused of a charming yet mischievous pursuit to pilfer delectable fruits and snacks, enthralling all with his lovable nature while leaving behind a trail of mischief that cannot be ignored</p>
                             </div>
                             <object class="animal-picture" type="image/svg+xml" data="svg/img/hedgehog.svg">
                                 <!-- fallback -->
@@ -162,7 +156,6 @@
                             </object>
                         </div>
                         
-                   
                     </div>   
                     <div class="pt-3 flex items-center justify-between">
                         <p class="">Hedgehog</p>
@@ -171,14 +164,16 @@
             </div>
 
             <!-- Octopus -->
-            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" id="octopus">
                 <a href="#">
                     <div class="hover:grow hover:shadow-lg rounded-md justify-center items-center bg-gray-100">
-                        <div class="animal-info flex flex-col justify-end"> 
+                        <div class="animal-info flex flex-col justify-evenly"> 
                             <p class="underline">Name: </p>
                             <p>Inkwell the Cutesy Con Artist</p>
-                            <p class="underline">Special Signs: </p> 
-                            <p>Master of Deceptive Tentacles</p>
+                            <p class="underline">Distinguishing Features: </p> 
+                            <p>Tentacles with remarkable flexibility and dexterity</p>
+                            <p class="underline">Prosecution Summary: </p>
+                            <p>Accused of underwater trickery, leaving authorities in comical confusion and the oceanic community questioning if it's an octopus or an aquatic chameleon</p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/octopus.svg">
                             <!-- fallback -->
@@ -196,11 +191,13 @@
             <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col ">
                 <a href="#">
                     <div class="hover:grow hover:shadow-lg rounded-md justify-center items-center bg-gray-100">
-                        <div class="animal-info flex flex-col justify-end"> 
+                        <div class="animal-info flex flex-col justify-evenly"> 
                             <p class="underline">Name: </p>
-                            <p></p>
-                            <p class="underline">Special Signs: </p> 
-                            <p></p>
+                            <p>Feathered Felon Fluffkins</p>
+                            <p class="underline">Distinguishing Features: </p> 
+                            <p>Talons perfect for picking locks</p>
+                            <p class="underline">Prosecution Summary: </p> 
+                            <p>The cuddly criminal, snatched a mountain of bitcoins from a renowned financial institution, while everyone gushed over his adorableness, oblivious to the fluffy felon's mischievous prowess</p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/chick.svg">
                             <!-- fallback -->
@@ -215,14 +212,16 @@
             </div>
 
             <!-- Sunfish -->
-            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col"> 
+            <div class="animal-card w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col" id="sunfish"> 
                 <a href="#">
                     <div class="hover:grow hover:shadow-lg rounded-md justify-center items-center bg-gray-100">
-                        <div class="animal-info flex flex-col justify-end"> 
+                        <div class="animal-info flex flex-col justify-evenly"> 
                             <p class="underline">Name: </p>
                             <p>Sunny the Turbo Sunfish</p>
-                            <p class="underline">Special Signs: </p> 
-                            <p>Aquatic Speedster with a Sunny Disposition</p>
+                            <p class="underline">Distinguishing Features: </p> 
+                            <p>Unmatched swimming speed defying expectations</p>
+                            <p class="underline">Prosecution Summary: </p>
+                            <p>Known for its lightning-fast swimming and a knack for arriving at the wrong place in a splash, faces charges of underwater mayhem</p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/sunfish.svg">
                             <!-- fallback -->
@@ -244,7 +243,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/bunny.svg">
@@ -267,7 +266,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/penguin.svg">
@@ -290,7 +289,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/sloth.svg">
@@ -313,7 +312,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/narwhal.svg">
@@ -336,7 +335,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/koala.svg">
@@ -359,7 +358,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/tucan.svg">
@@ -382,7 +381,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/raccoon.svg">
@@ -405,7 +404,7 @@
                         <div class="animal-info flex flex-col justify-end"> 
                             <p class="underline">Name: </p>
                             <p></p>
-                            <p class="underline">Special Signs: </p> 
+                            <p class="underline">Distinguishing Features: </p> 
                             <p></p>
                         </div>
                         <object class="animal-picture" type="image/svg+xml" data="svg/img/clownfishes.svg">
@@ -429,7 +428,7 @@
                             <div class="animal-info flex flex-col justify-end"> 
                                     <p class="underline">Name: </p>
                                     <p>Miss Fluffy Paws</p>
-                                    <p class="underline">Special Signs: </p> 
+                                    <p class="underline">Distinguishing Features: </p> 
                                     <p>Dangerously adorable fluffernaut</p>
                             </div>
                             <object class="animal-picture" type="image/svg+xml" data="svg/img/cat_sitting.svg">
@@ -453,7 +452,7 @@
                                         <div class="animal-info flex flex-col justify-end"> 
                                                 <p class="underline">Name: </p>
                                                 <p></p>
-                                                <p class="underline">Special Signs: </p> 
+                                                <p class="underline">Distinguishing Features: </p> 
                                                 <p></p>
                                         </div>
                                         <object class="animal-picture" type="image/svg+xml" data="svg/img/gipo.svg">
@@ -477,7 +476,7 @@
                                                                 <div class="animal-info flex flex-col justify-end"> 
                                                                         <p class="underline">Name: </p>
                                                                         <p></p>
-                                                                        <p class="underline">Special Signs: </p> 
+                                                                        <p class="underline">Distinguishing Features: </p> 
                                                                         <p></p>
                                                                 </div>
                                                                 <object class="animal-picture" type="image/svg+xml" data="svg/img/bear.svg">
@@ -501,7 +500,7 @@
                                         <div class="animal-info flex flex-col justify-end"> 
                                                 <p class="underline">Name: </p>
                                                 <p></p>
-                                                <p class="underline">Special Signs: </p> 
+                                                <p class="underline">Distinguishing Features: </p> 
                                                 <p></p>
                                         </div>
                                         <object class="animal-picture" type="image/svg+xml" data="svg/img/seal.svg">

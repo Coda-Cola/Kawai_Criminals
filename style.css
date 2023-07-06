@@ -47,7 +47,6 @@
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
     color: #000;
-    /*Set to match the Tailwind colour you want the active one to be */
 }
 .animal-picture,
 .animal-info {

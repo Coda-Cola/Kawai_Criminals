@@ -1,7 +1,7 @@
 # Kawaii Criminal Database
 
 ## Description:
-Welcome to the Kawaii Criminal Database, where cuteness meets mischief! This project showcases a collection of adorable and mischievous characters, ranging from cats and octopuses to hedgehogs and more. Each character comes with a funny description that highlights their unique traits and antics.
+Welcome to the [Kawaii Criminal Database](https://coda-cola.github.io/Kawai_Criminals/), where cuteness meets mischief! This project showcases a collection of adorable and mischievous characters, ranging from cats and octopuses to hedgehogs and more. Each character comes with a funny description that highlights their unique traits and antics.
 
 ## Installation:
 Clone the repository or download the project files.

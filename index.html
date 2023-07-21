@@ -18,7 +18,7 @@
 <body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 
     <!--Nav-->
-    <nav id="header" style="position:sticky" class="w-full z-30 top-0 py-1 bg-white">
+    <nav id="header" style="position:sticky" class="w-full z-40 top-0 py-1 bg-white">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
@@ -55,7 +55,7 @@
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/hedgehog.svg);">
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <a class="text-black text-2xl my-4 hover:underline" href="#hedgehog">Spike the Snack Bandit</a>
+                            <a class="text-black text-2xl my-4 hover:underline z-30" href="#hedgehog">Spike the Snack Bandit</a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/sunfish.svg)">
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <a class="text-black text-2xl my-4 hover:underline" href="#sunfish">Sunny the Turbo Sunfish</a>
+                            <a class="text-black text-2xl my-4 hover:underline z-30" href="#sunfish">Sunny the Turbo Sunfish</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="block h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right" style="background-image: url(./svg/octopus.svg)">
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <a class="text-black text-2xl my-4 hover:underline" href="#octopus">Inkwell the Cutesy Con Artist</a>
+                            <a class="text-black text-2xl my-4 hover:underline z-30 " href="#octopus">Inkwell the Cutesy Con Artist</a>
                         </div>
                     </div>
                 </div>
@@ -120,17 +120,17 @@
 
                     <div class="flex items-center" id="store-nav-content">
 
-                        <a class="pl-3 inline-block no-underline hover:text-black" href="#">
+                        <div id="input-filter" class="pl-3 inline-block no-underline hover:text-black">
                             <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M7 11H17V13H7zM4 7H20V9H4zM10 15H14V17H10z" />
                             </svg>
-                        </a>
+                        </div>
 
-                        <a class="pl-3 inline-block no-underline hover:text-black" href="#">
+                        <div id="input-search" class="pl-3 inline-block no-underline hover:text-black">
                             <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                 <path d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
                             </svg>
-                        </a>
+                        </div>
 
                     </div>
             </div>
@@ -597,6 +597,11 @@
             criminalsSection.classList.add("hidden");
             aboutSection.classList.remove("hidden");
         });
+
+        const searchInput = document.getElementById("input-search");
+        const filterInput = document.getElementById("input-filter");
+
+        
     </script>
 </body>
 

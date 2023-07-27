@@ -28,6 +28,14 @@ Remember, your contributions breathe life into the Kawaii Criminal universe. The
 
 Contributors should note that their contributions will be released under the project's chosen license (e.g., MIT License) to maintain an open-source and inclusive environment.
 
+## Why Contributing?
+
+1. **Teamwork and Networking:** Contribute to "Kawaii Criminals" and become part of a friendly community, connecting with like-minded individuals passionate about creativity and collaboration.
+
+2. **Practice Agile Methodology:** Embrace the world of agility as you become familiar with how Scrum works through hands-on experience under the guidance of a Certified Scrum Master. 
+
+3. **Showcase Your Experience:** Proudly display your contributions on your CV or website, emphasizing your ability to work effectively within a team and your dedication to open-source projects. Let "Kawaii Criminals" be a shining example of your teamwork and creativity!
+
 ## License:
 This project is released under the MIT License.
 

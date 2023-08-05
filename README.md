@@ -40,7 +40,7 @@ Contributors should note that their contributions will be released under the pro
 This project is released under the MIT License.
 
 ## Credits:
-We are proud to showcase the charming illustrations and animations created by our community members. Special mention to med4kat for the delightful character designs, and to Tailwind for powering our creative platform.
+We are proud to showcase the charming illustrations and animations created by our community members. Special mention to Tailwind for powering our creative platform.
 
 ## Disclaimer:
 The Kawaii Criminal Database is a realm of imagination, where fun rules and mischief is celebrated. Remember, our aim is to spark joy, encourage learning, and foster a sense of community. Always keep things light-hearted and positive!
